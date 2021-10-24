@@ -4,10 +4,7 @@ const express = require("express");
 const auth = require("./middleware/authentication");
 const User = require("./model/user");
 var { check , validationResult } = require('express-validator');
-
-// const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-// var nodemailer = require('nodemailer');
 
 
 
